@@ -12,11 +12,11 @@ import SomeExample from '/some/example.js'
 
 ## Install
 ```
-npm install --save-dev babel-root-slash-import
+npm install --save-dev @share911/babel-plugin-root-slash-import
 ```
 
 ```
-yarn add --dev babel-root-slash-import
+yarn add --dev @share911/babel-plugin-root-slash-import
 ```
 
 ## Use
@@ -24,13 +24,13 @@ Add a `.babelrc` file and write:
 ```javascript
 {
   "plugins": [
-    "babel-root-slash-import"
+    "@share911/babel-plugin-root-slash-import"
   ]
 }
 ```
 or pass the plugin with the plugins-flag on CLI
 ```
-npx babel-node myfile.js --plugins babel-root-slash-import
+npx babel-node myfile.js --plugins @share911/babel-plugin-root-slash-import
 ```
 
 ## Extras
@@ -38,12 +38,9 @@ If you want a custom root because for example all your files are in the src/js f
 ```javascript
 {
   "plugins": [
-    ["babel-root-slash-import", {
+    ["@share911/babel-plugin-root-slash-import", {
       "rootPathSuffix": "src/js"
     }]
   ]
 }
 ```
-
-## Motivate
-If you like this project just give it a star :) I like stars.

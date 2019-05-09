@@ -1,5 +1,5 @@
 {
-  "name": "@share911/babel-root-slash-import",
+  "name": "@share911/babel-plugin-root-slash-import",
   "version": "1.2.0",
   "description": "Babel Plugin to enable relative root-import",
   "author": "Arunoda Susiripala <arunoda@kadira.io>",
@@ -15,7 +15,7 @@
     "index.js",
     "build"
   ],
-  "repository": "https://github.com/Share911/babel-root-slash-import",
+  "repository": "https://github.com/Share911/babel-plugin-root-slash-import",
   "publishConfig": {
     "access": "public"
   },
